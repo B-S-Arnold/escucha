@@ -1,23 +1,63 @@
 /* TODO Add site wide styles */
+body{
+    background-color: rgb(34, 45, 55);
+    color: white;
+    /* display: grid; */
+}
 
+/* PANEL */
+
+.pan {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(200, 200, 200);
+    background-color: black;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panlink {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 15px;
+}
+/* NAV */
 .nav {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    background-color: black;
+    color: rgb(200, 200, 200);
+    background-color: rgb(103, 103, 103);
+    position: fixed;
+    top:0;
+    left:250px;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    /* width: 250px; */
+    /* height: 1000px; */
 }
 
 .navlink {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
-    color: white;
-        font-size: 15px;
+    color: rgb(200, 200, 200);
+    font-size: 15px;
 }
 
 .navbtn {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: none;
     background-color: transparent;
-    color: white;
+    color: rgb(200, 200, 200);
     margin: none;
     padding: 0;
     font-size: 15px;
