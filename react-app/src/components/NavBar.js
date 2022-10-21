@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className='nav'>
-      
+      {/* Hello */}
           <NavLink className='navlink' to='/' exact={true} activeClassName='active'>
             Home
           </NavLink>
