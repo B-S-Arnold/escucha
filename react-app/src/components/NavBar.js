@@ -12,9 +12,9 @@ const NavBar = () => {
   function changeCSS() {
     // var bodyElement = document.querySelector("body");
     var nav = document.querySelector("nav");
-    if (this.scrollY > 25 && this.scrollY < 70){
+    if (this.scrollY > 0 && this.scrollY < 100){
       nav.className = 'navMidScroll'
-    } else if (this.scrollY >= 70){
+    } else if (this.scrollY >= 100){
       nav.className = 'navScroll'
     } else {
       nav.className = 'nav'
