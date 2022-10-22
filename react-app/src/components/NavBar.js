@@ -9,6 +9,22 @@ const NavBar = () => {
 
   const user = useSelector(state => state.session.user)
 
+  function changeCSS() {
+    // var bodyElement = document.querySelector("body");
+    var nav = document.querySelector("nav");
+    if (this.scrollY > 25 && this.scrollY < 70){
+      nav.className = 'navMidScroll'
+    } else if (this.scrollY >= 70){
+      nav.className = 'navScroll'
+    } else {
+      nav.className = 'nav'
+    }
+    // this.scrollY > 40 ? nav.className = 'navMidScroll' : nav.className = 'nav';
+    // this.scrollY > 1000 ? nav.className = 'navScroll' : nav.className = 'nav';
+  }
+
+  window.addEventListener("scroll", changeCSS, false);
+
   return (
     <nav className='nav'>
           <NavLink className='navlink' to='/' exact={true} activeClassName='active'>

@@ -5,7 +5,7 @@ import LogoutButton from './auth/LogoutButton';
 
 const Panel = () => {
     return (
-        <nav className='pan'>
+        <div className='pan'>
             
                     <NavLink className='panlink' to='/' exact={true} activeClassName='active'>
                         Home
@@ -25,7 +25,7 @@ const Panel = () => {
                 
                     <LogoutButton />
                
-        </nav>
+        </div>
     );
 }
 
