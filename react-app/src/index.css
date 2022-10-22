@@ -1,21 +1,18 @@
-/* TODO Add site wide styles */
 ::-webkit-scrollbar {
     /* height: 1px; */
     width: 10px;
     /* padding: 2px; */
-    background-color: transparent;
-    position:fixed;
-    /* left:10px; */
-    z-index: 0;
-    
+    background-color: none;
+
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(200, 200, 200, 0.600);;
+    background: rgba(200, 200, 200, 0.600);
+    ;
     /* width: 100px; */
     -webkit-border-radius: 1ex;
-    
-    
+
+
 }
 
 /* ::-webkit-scrollbar-corner {
@@ -37,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     /* left: 250px; */
     /* display: grid; */
 }
@@ -168,11 +165,11 @@ body {
 
 .page {
     position: absolute;
-    top: 10%;
+    top: 100px;
     left: 15%;
     display: flex;
     width: 85%;
     height: 90%;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
